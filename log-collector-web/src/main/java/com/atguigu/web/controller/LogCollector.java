@@ -30,6 +30,9 @@ public class LogCollector {
         String LogString = JSON.toJSONString(e);
 
         // 写入日志目录
+
+
+
         logger.info(LogString);
 
         return e;
